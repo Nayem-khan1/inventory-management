@@ -1,0 +1,58 @@
+.product-card {
+  border: 1px solid gray;
+  max-width: 300px;
+  padding: 22px;
+  border-radius: 5px;
+  background-color: white;
+}
+.info {
+  margin-top: 20px;
+}
+.badge {
+  font-weight: bold;
+  background-color: var(--color-danger);
+  color: #fff;
+  padding-left: 2px;
+  padding-right: 2px;
+  border-radius: 3px;
+  margin-right: 5px;
+  line-height: 2.5rem;
+}
+.p-name {
+  font-weight: bold;
+}
+.name {
+  font-weight: 500;
+  margin-right: 5px;
+  line-height: 2.5rem;
+}
+.product-img img {
+  width: 250px;
+  height: 200px;
+  border-radius: 5px;
+}
+.details-btn {
+  margin-top: 20px;
+  border: none;
+  font-weight: bold;
+  background-color: var(--color-danger);
+  color: #fff;
+  padding: 2px 5px;
+  border-radius: 3px;
+  cursor: pointer;
+}
+.btn-group {
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+}
+.download-btn {
+  margin-top: 25px;
+  border: none;
+  font-weight: bold;
+  background-color: var(--color-danger);
+  color: #fff;
+  padding: 2px 5px;
+  border-radius: 3px;
+  cursor: pointer;
+}

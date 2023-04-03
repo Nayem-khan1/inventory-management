@@ -3,6 +3,12 @@ const Product = require("../models/productModel");
 const { fileSizeFormatter } = require("../utils/fileUpload");
 const cloudinary = require("cloudinary").v2;
 
+cloudinary.config({
+  cloud_name: "dbc7aucky",
+  api_key: "245688145183453",
+  api_secret: "yourBM5k0lpeb-Dw2xdO_1UBy94",
+});
+
 // Create Prouct
 const createProduct = asyncHandler(async (req, res) => {
   const { name, sku, category, quantity, price, description } = req.body;
